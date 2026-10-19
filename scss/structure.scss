@@ -1,0 +1,504 @@
+body {
+    margin: 0;
+    background-color: #F4F5F0;
+    color: #111D15;
+    font-family: "DM Sans", sans-serif;
+}
+
+.hero {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    background-color: #F4F5F0;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.location {
+    color: #666666;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-family: "Archivo", sans-serif;
+    font-size: 64px;
+    margin: 0 0 25px;
+}
+
+.hero-text {
+    color: #666666;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.hero-subtext {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.hero-buttons a {
+    padding: 14px 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-buttons a:first-child {
+    background-color: #1B4332;
+    color: white;
+}
+
+.hero-buttons a:last-child {
+    background-color: #E8722A;
+    color: white;
+}
+
+.categories {
+    padding: 80px 40px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-heading p {
+    color: #E8722A;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.section-heading h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.category-grid a {
+    padding: 50px 20px;
+    background-color: #F4F5F0;
+    color: #111D15;
+    text-decoration: none;
+    font-family: "Archivo", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.category-grid a:hover {
+    background-color: #1B4332;
+    color: white;
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 35px;
+    color: #1B4332;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.featured-video {
+    padding: 100px 40px;
+    background-color: #111D15;
+    color: white;
+}
+
+.video-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.video-content p {
+    color: #FFB900;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.video-content h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 42px;
+    margin: 20px 0;
+}
+
+.video-content span {
+    color: #E7E5E4;
+}
+
+.video-content a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 25px;
+    background-color: #E8722A;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.mission-section {
+    width: 100%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.mission-content {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mission-text {
+    max-width: 650px;
+    margin: 20px auto 0;
+    line-height: 1.7;
+}
+
+.values {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+
+/* Shop page */
+
+.shop-section {
+    padding: 60px 30px;
+    background-color: #F4F5F0;
+    color: #111D15;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-heading > p:first-child {
+    color: #E8722A;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.section-heading h2 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.shop-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.shop-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.shop-card-content {
+    padding: 20px;
+}
+
+.shop-card-content h3 {
+    color: #1B4332;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.shop-card-content p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+.shop-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #E8722A;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.shop-button:hover {
+    background-color: #1B4332;
+}
+
+/* Shop page banner image */
+
+.page-image {
+    width: 100%;
+    max-width: 1100px;
+    height: 300px;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+.page-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Make the shop cards fit smaller screens */
+
+@media (max-width: 768px) {
+    .shop-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .shop-section {
+        padding: 40px 20px;
+    }
+
+    .section-heading h2 {
+        font-size: 26px;
+    }
+}
+
+
+/* Guides page */
+
+.guides-section {
+    padding: 60px 30px;
+    background-color: #F4F5F0;
+    color: #111D15;
+}
+
+.guides-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.guide-card {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.guide-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.guide-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.guide-card-content {
+    padding: 20px;
+}
+
+.guide-category {
+    color: #E8722A;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.guide-card-content h3 {
+    color: #1B4332;
+    font-size: 22px;
+}
+
+.guide-card-content p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+.guide-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #E8722A;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.guide-button:hover {
+    background-color: #1B4332;
+}
+
+/* Make guide cards fit smaller screens */
+
+@media (max-width: 768px) {
+    .guides-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .guides-section {
+        padding: 40px 20px;
+    }
+}
+
+/* About page */
+
+.about-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 70px 30px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.about-image {
+    flex: 1;
+    height: 400px;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text .section-label {
+    color: #E8722A;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.about-text h2 {
+    color: #1B4332;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.about-text h3 {
+    color: #111D15;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.about-text p {
+    color: #666666;
+    line-height: 1.8;
+}
+
+.about-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background-color: #E8722A;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.about-button:hover {
+    background-color: #1B4332;
+}
+
+.about-values {
+    padding: 60px 30px;
+    background-color: #F4F5F0;
+    color: #111D15;
+}
+
+.about-values-grid {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.about-values-grid > div {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.about-values-grid h3 {
+    color: #1B4332;
+}
+
+.about-values-grid p {
+    color: #666666;
+    line-height: 1.6;
+}
+
+/* About page on smaller screens */
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .about-image {
+        width: 100%;
+        flex: auto;
+        height: 280px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-values-grid {
+        grid-template-columns: 1fr;
+    }
+}

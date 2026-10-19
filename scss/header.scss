@@ -1,0 +1,39 @@
+header {
+    background-color: #F4F5F0;
+    padding: 20px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #111D15;
+    font-family: "Archivo", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #111D15;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+}
+
+.nav-links a:hover {
+    color: #E8722A;
+}
+
+nav a {
+    text-decoration: none;
+}
